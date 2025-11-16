@@ -1,5 +1,7 @@
 # 📋 Kanban Board - Sistema de Gerenciamento de Tarefas
 
+Link para o vídeo explicativo: [https://youtu.be/QwB-DQDNtUM](https://youtu.be/QwB-DQDNtUM)
+
 Sistema completo de gerenciamento de tarefas estilo Kanban, desenvolvido com arquitetura moderna e boas práticas de desenvolvimento.
 
 ## 🚀 Tecnologias
