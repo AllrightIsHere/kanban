@@ -1,0 +1,92 @@
+.column {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  min-width: 300px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  max-height: calc(100vh - 200px);
+  transition: background-color 0.2s ease;
+}
+
+.column-drag-over {
+  background: #e3f2fd;
+  border: 2px dashed #4a90e2;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.column-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.column-count {
+  background: #e0e0e0;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.column-cards {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  min-height: 100px;
+}
+
+.column-empty-placeholder {
+  padding: 40px 20px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.column-cards::-webkit-scrollbar {
+  width: 6px;
+}
+
+.column-cards::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.column-cards::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.column-cards::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.column-add-btn {
+  background: white;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.column-add-btn:hover {
+  border-color: #4a90e2;
+  color: #4a90e2;
+  background: #f0f7ff;
+}
