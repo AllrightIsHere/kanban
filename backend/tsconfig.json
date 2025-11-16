@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "ES2020",
+        "sourceMap": true,
+        "outDir": "./build",
+        "allowSyntheticDefaultImports": true,
+        "rootDirs": ["src"],
+        "baseUrl": "src",
+        "paths": {
+            "@domain/*": ["domain/*"],
+            "@kanban-types/*": ["types/*"],
+            "@controllers/*": ["controllers/*"],
+            "@services/*": ["services/*"],
+            "@database/*": ["database/*"],
+            "@useCases/*": ["useCases/*"],
+            "@config/*": ["config/*"],
+            "@routes/*": ["routes/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/**/*"]
+}

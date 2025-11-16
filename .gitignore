@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+coverage
+./mysql
+.idea
+
+# production
+build
+
+generated/
